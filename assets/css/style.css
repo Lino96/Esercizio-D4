@@ -63,49 +63,74 @@
  
 }
 
+.main-section {
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+    width: 100%;
+    margin-top: 60px;
+    justify-content: center;
+}
+
 .main-left-section {
     display: flex;
     flex-direction: column;
-    height: 1000px;
-    width: 1300px;
-    margin-top: 30px;
-    
+     
 }
 
 .section-container {
     display: flex;
     flex-direction: row;
-    height: 160px;
-    width: 60%;
-    margin-left: 300px;
-    padding: 20px
+    height: 135.5px;
+    width: 695.33px;
     
+    margin-top: 25px;
+    margin-bottom: 25px;
 }
 
 .text-content {
     width: 70%;
     justify-content: flex-start;
     height: 100%;
+
+}
+.main-text h2 {
+    font-size: large;
+    
 }
 
 
+.main-text p {
+    font-size: 15px;
+    font-weight: 400;
+}
 
 .section-header {
-    height: 25%;
+    height: 21%;
     width: 70%;
     display: flex;
     justify-content: flex-start;
     flex-direction: row;
     align-items: center;
+    font-size: medium;
 }
 
 h5 {
-    margin-left: 10px;
+    margin-left: 5px;
 }
-.main-text {
-    height: 50%;
-    width: 70%;
+.section-header p {
+    margin-left: 5px;
+    color: #75758A;
+}
 
+
+.main-text {
+    height: 54%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 .main-text p {
@@ -121,10 +146,13 @@ h5 {
     flex-direction: row;
     align-items: center;
     color: #75758A;
+    font-size: small;
 }
 
+
+
 .point {
-    height: 75%;
+    height: 90%;
     font-size: large;
     margin: 5px;
 }
@@ -141,11 +169,15 @@ h5 {
 .image-content {
     width: 30%;
     justify-content: flex-end;
+    margin-left: 30px;
+   
 }
 
 .image-content img {
     width: 100%;
     height: 100%;
+    object-fit: cover;
+    object-position: center;
 }
 
 .propic {
@@ -163,3 +195,10 @@ h5 {
     width: 60px;
 }
 
+.main-right-section {
+    display: flex;
+    width: 397.34px;
+    height: 351px;
+    background-color: red;
+    margin-left: 100px;
+}
