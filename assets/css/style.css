@@ -360,12 +360,12 @@ h5 {
 
 .options {
     height: 60px;
-    width: 100%;
     display: flex;
     flex: row;
     flex-wrap: wrap;
     color: #757575;
     margin-top: 30px;
+    padding-right: 70px;
 }
 
 .options a {
