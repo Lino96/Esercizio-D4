@@ -15,6 +15,8 @@
     border-bottom: solid 1px black;
     display: block;
     position: sticky;
+    top: 0;
+    background-color: #FFC017;
 }
 
 .logo-container {
@@ -326,6 +328,7 @@ h5 {
     height: 351px;
     margin-left: 100px;
     position: sticky;
+    top: 100px;
 }
 
 .main-right-section h4 {
